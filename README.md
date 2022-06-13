@@ -5,7 +5,10 @@ A piplined news recommendation platform which provides a personalized experience
 
 Delivering the recommendations was inclusive to Natural Language Processing and other Ai technologies such as text summarization, text modelling, unsupervised learning, and similarity metrics.
 
-This is a part of a university project. You can see the whole architecture of the system here: https://github.com/MohamedAbdeen21/Dockered-news
+The following diagram illustrates the whole system architecture
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/a-alnagar/A-Pipelined-News-Recommendation-Platform/blob/main/Web%20and%20UI/images/diagrams_image.png)?raw=true)
+
+This is a part of a university project. You can see the whole project here: https://github.com/MohamedAbdeen21/Dockered-news
 
 For the sake of testing, I created some users with randomized reading behaviour to test and debug the model.
 # Recomendation Engine
