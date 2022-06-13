@@ -1,12 +1,12 @@
 # A-Pipelined-News-Recommendation-Platform
 A piplined news recommendation platform which provides a personalized experience to readers. 
-*The content of this repo is subjected to change.
+*The content of this repo is subjected to change.*
 
 Delivering the recommendations was inclusive to Natural Language Processing and other Ai technologies such as text summarization, text modelling, unsupervised learning, and similarity metrics.
 
 This is a part of a university project. You can see the whole architecture of the system here: https://github.com/MohamedAbdeen21/Dockered-news
 
-
+For the sake of testing, I created some users with randomized reading behaviour to test and debug the model.
 # Recomendation Engine
 
 I developed a hybrid recommendation engine using hierarical clustring and topic modelling using an unsupervised model, Latent Dirichlet Allocation (LDA). Grouping users with simliar reading behaviour by vectorizing their read articles throigh Tf-Idf vectorizer then performing cosine similarity to create groups by using Hierarichal Clustering. 
