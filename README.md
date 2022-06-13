@@ -18,8 +18,8 @@ Second part of the recommendation system is analyzing and training LDA. The arti
 
 # Summarization
 
-For summarization task I used a pretrained BART transformer imported from the [huggingface](https://huggingface.co/) library. The model was pretrained on CNN/Dailymail dataset, so I didn't need to train it. The input text is tokenized through a BARTtokenizer. It accepts a maximum imput size of 512 words so large articles were summarized iteratively. The summariztion task was challenging in the beginning. I had to find a model which delivers a satisfying results. Started with Seq2Seq model, computationllay it wasn't very expensive but the result wasn't satisfying. After searching a find the huggingface api which procided a lot of options.
+For summarization task I used a pretrained BART transformer imported from the [huggingface](https://huggingface.co/) library. The model was pretrained on CNN/Dailymail dataset, so I didn't need to train it. The input text is tokenized through a BARTtokenizer. It accepts a maximum imput size of 512 words so large articles were summarized iteratively. The summariztion task was challenging in the beginning. I had to find a model which delivers a satisfying results. Started with Seq2Seq model, computationllay it wasn't very expensive but the result wasn't satisfying. After searching I found the huggingface api which provided a lot of options.
 
 # Website
 
-The website is implemented throught a simple design to fit all the types of users. It's developed with HTML, JavaScript, and CSS. The UI/UX design was done on Adobe Xd. The webiste was developed with a mobile first paradigm as majority of the useres will be using mobiles.
+The website is implemented through a simple design to fit all types of users. It's developed with HTML, JavaScript, and CSS. The UI/UX design was done on Adobe XD. The webiste was developed with a mobile first paradigm as majority of the users will be using mobiles.
