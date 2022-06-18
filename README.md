@@ -12,7 +12,7 @@ This is a part of a university project. You can see the whole project here: http
 For the sake of testing, I created some users with randomized reading behaviour to test and debug the model.
 # Recomendation Engine
 
-I developed a hybrid recommendation engine using hierarical clustring and topic modelling using an unsupervised model, Latent Dirichlet Allocation (`LDA`). Grouping users with simliar reading behaviour by vectorizing their read articles throigh `Tf-Idf` vectorizer then performing cosine similarity to create groups by using `Hierarichal Clustering`. 
+I developed a hybrid recommendation engine using hierarical clustring and topic modelling using a unsupervised model, Latent Dirichlet Allocation (`LDA`). Grouping users with simliar reading behaviour by vectorizing their read articles throigh `Tf-Idf` vectorizer then performing cosine similarity to create groups by using `Hierarichal Clustering`. 
 
 Second part of the recommendation system is analyzing and training `LDA`. The articles read by the users are modeled to different topics and each topic is represented by a group of words. For example, if we have two groups and we modeled their read articles we can find that the content read by one group is composed of (40% politics, 30% sport, 30% crime). When a new article is passed to the system it's also modeled in the same way, and by finding similarites it's addressed to one of the groups. The LDA model can be updated (trained by additional content) with articles continously.
 
